@@ -80,18 +80,18 @@ const index = () => {
             <Wrapper>
                 <Title>Experience</Title>
                 <Desc>
-                My professional experience as a UI developer encompasses designing and implementing user interfaces for diverse projects and clients.
+                    My professional experience as a UI developer encompasses designing and implementing user interfaces for diverse projects and clients.
                 </Desc>
                 <TimelineSection>
                     <Timeline>
-                        {experiences.map((experience,index) => (
-                            <TimelineItem>
+                        {experiences.map((experience, index) => (
+                            <TimelineItem key={index}>
                                 <TimelineSeparator>
                                     <TimelineDot variant="outlined" color="secondary" />
                                     {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#800020' }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    <ExperienceCard experience={experience}/>
+                                    <ExperienceCard experience={experience} />
                                 </TimelineContent>
                             </TimelineItem>
                         ))}
