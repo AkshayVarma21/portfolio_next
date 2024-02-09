@@ -14,7 +14,9 @@
 .background {
     background-image: url('./images/homePage.jpg');
     background-repeat: no-repeat; 
-    background-size: cover
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
   
 
