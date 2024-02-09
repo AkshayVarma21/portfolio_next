@@ -29,7 +29,6 @@ const Profile = () => {
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
                     </HeroLeftContainer>
-
                     <HeroRightContainer id="Right">
 
                         <Img src={ProfileImg} alt="hero-image" />
