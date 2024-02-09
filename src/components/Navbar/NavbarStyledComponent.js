@@ -76,6 +76,7 @@ export const NavLink = styled.a`
 export const GitHubButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;
+  text-align: center;
   display: flex;
   align-items: center;
   height: 70%;

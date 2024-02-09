@@ -55,6 +55,11 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
+        name: "Typescript",
+        image:
+          "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTMgFIS0tIfciGAKaQzK8Cls60rdGLALt4TCPpH6wMMk2NHgBqXBJwoVHWvXjly ",
+      },
+      {
         name: "Bootstrap",
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
@@ -73,6 +78,26 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
       },
+      {
+        name: "Module Federation",
+        image:
+          "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTtDrX5LzQozez3hwPOZVZkSRdoqNM_DzCeaIB49E0lYXVCME_h9-BipUi1IWsS",
+      },
+      {
+        name: "REST Apis",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      },
+      {
+        name: "GraphQL",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/768px-GraphQL_Logo.svg.png",
+      },
+      {
+        name: "PWA",
+        image:
+          "data:image/png;base64,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",
+      },
     ],
   },
   {
@@ -81,22 +106,42 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+          "https://git-scm.com/images/logos/logomark-orange@2x.png",
       },
       {
-        name: "GitHub",
+        name: "Jira",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQFeJlFrPaDNJAyggyVJ3ZvQS0NhvfvlCBhx7LY8Yealf2Nd-MjAoB_bmZzFTDh",
+      },
+      {
+        name: "Confluence",
+        image:
+          "https://seeklogo.com/images/C/confluence-logo-D9B07137C2-seeklogo.com.png",
+      },
+      {
+        name: "Azure Devops",
+        image:
+          "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSBgLZpUc_XZuXiaF9oau6KFwEeJf-sKgcFj08-sqYbKbBptf7NI7oqg-n7bZDO",
+      },
+      {
+        name: "NPM",
+        image:
+          "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ7SouAyi_5ZY78xBlOTJi-14e1nqRmud02fxhBY74ZBWcSuKiy2HpKkuDupt5W",
+      },
+      {
+        name: "Webpack",
+        image:
+          "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTtDrX5LzQozez3hwPOZVZkSRdoqNM_DzCeaIB49E0lYXVCME_h9-BipUi1IWsS",
       },
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTzPqCaW8rOdQfmjjw4ApfmuaQuGb_elehC-Lv7t014RBbeM0Sy5OBOmXExsd1y",
       },
       {
         name: "Postman",
         image:
-          "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
+          "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTkrfQBFKr6KWaXxCgtJ80sZDPZeTn9Nniu-on39UaywD__GhDCOV4u8RINn1r9",
       }
     ],
   },
@@ -109,15 +154,24 @@ export const experiences = [
     role: "Software Engineer",
     company: "Knowledgelens: A Rockwell Automation Company",
     date: "Jan 2022 - Current",
-    desc: "",
+    desc: `Over the past two years at knowledgelens, I've gained versatility by tackling projects across diverse industries like pharma, supply chain management, and industrial automation. I consistently prioritize client success, staying current with UX and UI best practices to deliver optimal solutions. My leadership skills shine through my experience directing teams toward impactful results, and I value fostering growth by mentoring junior members.`,
     skills: [
       "ReactJS",
       "Redux",
-      "NodeJs",
-      "Material UI",
+      "Javascript",
+      "Ant Design",
       "HTML",
       "CSS",
-      "JavaScript",
+      "Typescript",
+      "NextJS",
+      "Bootstrap",
+      "Cypress",
+      "Ag grid",
+      "Apache Echarts",
+      "Module Federation",
+      "NX workspace",
+      "Git",
+      "Azure Devops"
     ],
   },
   {
@@ -126,8 +180,19 @@ export const experiences = [
     role: "Senior Engineer - UI",
     company: "Envestnet Asset Mangement",
     date: "Jul 2018 - Jan 2022",
-    desc: "",
+    desc: "My journey as a UI developer at Envestnet was instrumental in shaping my career. I built a strong foundation in UI/UX principles, understanding how they translate into user-friendly interfaces. Immersing myself in the fintech industry equipped me with its specific standards and regulations, ensuring my work remains compliant and secure. Through hands-on development, I honed my skills in building and maintaining UI components, likely leveraging various frameworks and tools to streamline the process. But soft skills proved equally important. Clear communication became crucial for delivering projects that met stakeholder expectations, while mentoring junior developers allowed me to share knowledge and foster collaboration. Facing challenges head-on and guiding others solidified my leadership abilities and further strengthened my foundation as a UI developer.",
     skills: [
+      "ReactJS",
+      "Javascript",
+      "Redux-Saga",
+      "Material UI",
+      "HTML",
+      "Redux",
+      "CSS",
+      "Typescript",
+      "Git",
+      "Jira",
+      "Confluence"
 
     ],
   },
@@ -163,10 +228,3 @@ export const education = [
   },
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];

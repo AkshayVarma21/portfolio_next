@@ -12,7 +12,7 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20px', cursor: 'pointer' }}>
             <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
           </a>
         </NavLogo>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.resume} target="_blank">Download Resume</GitHubButton>
+            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content', textAlign: 'center' }} href={Bio.resume} target="_blank">Download Resume</GitHubButton>
           </MobileMenu>
         }
       </NavbarContainer>
