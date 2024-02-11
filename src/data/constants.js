@@ -9,7 +9,7 @@ export const Bio = {
     "As a UI developer, I specialize in creating engaging user interfaces that seamlessly blend functionality with aesthetic appeal.",
   github: "",
   resume:
-    "https://drive.google.com/file/d/1iDiu5uiEtWvoctsHtr3mKj-8AeXwcA3Z/view?usp=sharing",
+    "https://drive.google.com/file/d/1lQmfIijRXhZi40j0nnaij4w0tGNR6MRU/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/akshay-varma-749126178/",
   mail: "https://www.google.com/gmail/about/",
   mailId:"varma.akshay121@gmail.com"
