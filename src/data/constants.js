@@ -11,9 +11,8 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1iDiu5uiEtWvoctsHtr3mKj-8AeXwcA3Z/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/akshay-varma-749126178/",
-  twitter: "",
-  insta: "",
-  facebook: "",
+  mail: "https://www.google.com/gmail/about/",
+  mailId:"varma.akshay121@gmail.com"
 };
 
 export const skills = [

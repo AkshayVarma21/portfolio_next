@@ -37,7 +37,7 @@ function App() {
           </Wrapper>
           <Wrapper>
             <Education />
-            <Contact />
+            {/* <Contact /> */}
           </Wrapper>
           <Footer />
         </Body>
