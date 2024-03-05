@@ -132,11 +132,11 @@ export const skills = [
         image:
           "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTtDrX5LzQozez3hwPOZVZkSRdoqNM_DzCeaIB49E0lYXVCME_h9-BipUi1IWsS",
       },
-      {
-        name: "VS Code",
-        image:
-          "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTzPqCaW8rOdQfmjjw4ApfmuaQuGb_elehC-Lv7t014RBbeM0Sy5OBOmXExsd1y",
-      },
+      // {
+      //   name: "VS Code",
+      //   image:
+      //     "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTzPqCaW8rOdQfmjjw4ApfmuaQuGb_elehC-Lv7t014RBbeM0Sy5OBOmXExsd1y",
+      // },
       {
         name: "Postman",
         image:
