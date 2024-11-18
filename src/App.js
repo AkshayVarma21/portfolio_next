@@ -3,6 +3,8 @@ import { useState } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
 import './App.css';
+import 'slick-carousel/slick/slick.css'; 
+import 'slick-carousel/slick/slick-theme.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Profile from "./components/Profile";
 import Skills from "./components/Skills";
@@ -11,6 +13,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import styled from "styled-components";
+import Articles from "./components/Articles/index.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -28,11 +31,12 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
-        <Navbar />
+        <Navbar handleToggle={()=>setDarkMode(!darkMode)} isDarkMode={darkMode}/>
         <Body>
           <Profile />
           <Wrapper>
             <Skills />
+            <Articles />
             <Experience />
           </Wrapper>
           <Wrapper>
