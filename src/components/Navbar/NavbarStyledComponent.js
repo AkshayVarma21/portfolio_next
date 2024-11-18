@@ -217,3 +217,71 @@ export const MobileNavLogo = styled(LinkR)`
     padding: 0 0px;
   }
 `;
+
+export const SwitchWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+`;
+
+export const LabelContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 14px;
+  color: #555;
+`;
+
+export const SwitchLabel = styled.label`
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+`;
+
+export const SwitchInput = styled.input`
+  opacity: 0; /* Hide the checkbox input */
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+`;
+
+export const SwitchSlider = styled.span`
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: 0.4s;
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+  }
+
+  &:hover {
+    background-color: #aaa;
+  }
+
+  ${SwitchInput}:checked + & {
+    background-color: #4CAF50; /* Green color when checked */
+  }
+
+  ${SwitchInput}:checked + &::before {
+    transform: translateX(26px);
+  }
+`;

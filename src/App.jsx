@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import styled from "styled-components";
+import Articles from "./components/Articles/index.jsx";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -30,11 +31,12 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
-        <Navbar />
+        <Navbar isDarkMode={darkMode} handleToggle={()=>setDarkMode(!darkMode)}/>
         <Body>
           <HeroSection />
           <Wrapper>
             <Skills />
+            <Articles />
             <Experience />
           </Wrapper>
           <Wrapper>

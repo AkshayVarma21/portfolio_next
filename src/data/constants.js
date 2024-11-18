@@ -149,10 +149,30 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://erepublic.brightspotcdn.com/dims4/default/dcfefa5/2147483647/strip/true/crop/380x258+0+0/resize/190x129!/format/webp/quality/90/?url=http%3A%2F%2Ferepublic-brightspot.s3.us-west-2.amazonaws.com%2F70%2F12%2Fc82292e947ef92807f7fe39e8930%2Fgranicus.jpg",
+    role: "Software Engineer 4",
+    company: "Granicus Technologies",
+    date: "Jun 2024 - Current",
+    desc: ``,
+    skills: [
+      "ReactJS",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Typescript",
+      "jQuery",
+      "Bootstrap",
+      ".NET",
+      "Git",
+      "Jira"
+    ],
+  },
+  {
+    id: 1,
     img: "https://www.knowledgelens.com/new-launch/assets/img/kl-logo-new.png",
     role: "Software Engineer",
     company: "Knowledgelens: A Rockwell Automation Company",
-    date: "Jan 2022 - Current",
+    date: "Jan 2022 - May 2024",
     desc: `Over the past two years at knowledgelens, I've gained versatility by tackling projects across diverse industries like pharma, supply chain management, and industrial automation. I consistently prioritize client success, staying current with UX and UI best practices to deliver optimal solutions. My leadership skills shine through my experience directing teams toward impactful results, and I value fostering growth by mentoring junior members.`,
     skills: [
       "ReactJS",
@@ -174,7 +194,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://www.envestnet.com/sites/default/files/envestnet_logo.584dcbdba8d4e3b81ca52c9cafe5f7d7.svg",
     role: "Senior Engineer - UI",
     company: "Envestnet Asset Mangement",
